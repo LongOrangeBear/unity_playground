@@ -1,0 +1,56 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# Never ignore .meta files (critical for Unity)
+!*.meta
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.apk
+*.aab
+*.ipa
+*.unitypackage
+
+# AI Context Optimization (binary files AI cannot process)
+# Uncomment for .cursorrules / AI ignore
+# *.png
+# *.jpg
+# *.jpeg
+# *.fbx
+# *.FBX
+# *.wav
+# *.mp3
+# *.dll
+# *.pdb
+# *.blend
+# *.psd
+
+# MCP specific
+.mcp/cache/
+.mcp/*.log
+.ai-cache/
+*.ai-session
+
+# Secrets
+.env
+.env.local
+secrets.json
