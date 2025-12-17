@@ -134,13 +134,13 @@ public static class TestSceneSetup
         colors.pressedColor = new Color(0.6f, 0.6f, 0.6f, 1f);
         button.colors = colors;
         
-        var moveBtn = btnGO.AddComponent<MoveButton>();
+        // var moveBtn = btnGO.AddComponent<MoveButton>();
         
-        // Set direction via serialized field - reflection needed in Editor
-        var dirField = typeof(MoveButton).GetField("_moveDirection", 
-            System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-        if (dirField != null)
-            dirField.SetValue(moveBtn, direction);
+        // // Set direction via serialized field - reflection needed in Editor
+        // var dirField = typeof(MoveButton).GetField("_moveDirection", 
+        //     System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+        // if (dirField != null)
+        //     dirField.SetValue(moveBtn, direction);
         
         // Add label
         var labelGO = new GameObject("Label");
